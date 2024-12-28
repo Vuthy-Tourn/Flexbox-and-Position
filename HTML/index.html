@@ -1,0 +1,481 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/stylesheet.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- AOS Stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/6c287943bf.js" crossorigin="anonymous"></script>
+    <title>Flexbox and Position</title>
+  </head>
+  <body>
+    <div id="totop"></div>
+    <header>
+      <nav class="navbar" >
+        <div class="logo">
+          <img src="../image/LOGO.png" alt="Logo" width="100px" />
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Course</a></li>
+          <li><a href="#">Feature</a></li>
+        </ul>
+        <div class="btn">
+          <button class="loginbtn">Log in</button>
+          <button class="signinbtn">Sign in</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="title">
+          <h1 id="typed-output">Most Popular Courses</h1>
+           <p>Choose from hundreds of courses from specialist organizations</p>
+        </div>
+        <div class="tabs">
+          <button class="tab">All</button>
+          <button class="tab">Web Design</button>
+          <button class="tab">Mobile Development</button>
+          <button class="tab">Data Science</button>
+          <button class="tab">Design</button>
+        </div>
+        <div class="card-content">
+          <!-- card 1 -->
+          <div class="card" data-aos="fade-up" data-aos-duration="1000">
+            <div class="position">
+              <img class="image" src="https://eduport.webestica.com/assets/images/courses/4by3/08.jpg" alt="Figma" />
+              <i class="fa-solid fa-bookmark" style="color: #FFD43B;"></i>
+            </div>
+            <div class="content">
+              <div class="top">
+                <div class="level color">All Level</div>
+                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+              </div>
+              <div class="middle">
+                <h3>Sketch from A to Z: for App Designers</h3>
+                <small class="text">Rooms oh fully taken by worse do.</small>
+                <small class="text">Points afraid but may end afraid but...</small>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <small class="point">4.5/5.0</small>
+              </div>
+              <hr />
+              <div class="bottom">
+                <div class="clock"><i class="fa-regular fa-clock" style="color: #fb0404;"></i> 5h 56mn</div>
+                <div class="table"><i class="fa-solid fa-table" style="color: darkorange;"></i> 32 lectures</div>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+            <div class="card" data-aos="fade-up" data-aos-duration="1000">
+               <div class="position">
+              <img class="image" src="https://eduport.webestica.com/assets/images/courses/4by3/02.jpg" alt="HTML">
+              <i class="fa-solid fa-bookmark" style="color: #FFD43B;"></i>
+            </div>
+              <div class="content">
+              <div class="top">
+              <div class="level color1">Beginner</div>
+                <div class="icon"><i class="fa-solid fa-heart" style="color: #fb0404;"></i></i></div>
+              </div>
+              <div class="middle">
+                <h3>Graphic Design with Photoshop</h3>
+                <small class="text">Rooms oh fully taken by worse do.</small>
+                <small class="text">Points afraid but may end afraid but...</small>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <small class="point">4.5/5.0</small>
+              </div>
+              <hr>
+              <div class="bottom">
+                <div class="clock"><i class="fa-regular fa-clock"  style="color: #fb0404;"></i>3h 56mn</div>
+                <div class="table"><i class="fa-solid fa-table" style="color: darkorange;"></i>8 lectures</div>
+              </div>
+            </div>
+            </div>
+            
+          <!-- card 3 -->
+            <div class="card" data-aos="fade-up" data-aos-duration="1000">
+            <div class="position">
+              <img class="image" src="https://eduport.webestica.com/assets/images/courses/4by3/03.jpg" alt="Figma">
+              <i class="fa-solid fa-bookmark" style="color: #FFD43B;"></i>
+            </div>
+              <div class="content">
+              <div class="top">
+                <div class="level color1">Beginner</div>
+                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+              </div>
+              <div class="middle">
+                <h3>Create a Design System in Figma</h3>
+                <small class="text">Rooms oh fully taken by worse do.</small>
+                <small class="text">Points afraid but may end afraid but...</small>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <small class="point">4.0/5.0</small>
+              </div>
+              <hr>
+              <div class="bottom">
+                <div class="clock"><i class="fa-regular fa-clock" style="color: #fb0404;"></i>8h 56mn</div>
+                <div class="table"><i class="fa-solid fa-table" style="color: darkorange;"></i>16 lectures</div>
+              </div>
+            </div>
+            </div>
+          <!-- card 4 -->
+            <div class="card" data-aos="fade-up" data-aos-duration="1000">
+              <div class="position">
+              <img class="image" src="https://eduport.webestica.com/assets/images/courses/4by3/07.jpg" alt="Javascript">
+              <i class="fa-solid fa-bookmark" style="color: #FFD43B;"></i>
+            </div>
+              <div class="content">
+              <div class="top">
+                 <div class="level color">All Level</div>
+                <div class="icon"><i class="fa-solid fa-heart" style="color: #fb0404;"></i></div>
+              </div>
+              <div class="middle">
+                <h3>Deep Learning with React-Native</h3>
+                <small class="text">Rooms oh fully taken by worse do.</small>
+                <small class="text">Points afraid but may end afraid but...</small>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <small class="point">4.0/5.0</small>
+              </div>
+              <hr>
+              <div class="bottom">
+                <div class="clock"><i class="fa-regular fa-clock"  style="color: #fb0404;"></i>15h 56mn</div>
+                <div class="table"><i class="fa-solid fa-table"  style="color: darkorange;"></i>64 lectures</div>
+              </div>
+            </div>
+            </div>
+          <!-- card 5 -->
+            <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                <div class="position">
+                  <img class="image" src="https://eduport.webestica.com/assets/images/courses/4by3/04.jpg" alt="Figma">
+              <i class="fa-solid fa-bookmark" style="color: #FFD43B;"></i>
+            </div>
+                  <div class="content">
+                  <div class="top">
+                    <div class="level color">All Level</div>
+                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                  <div class="middle">
+                    <h3>Create a Design System in Figma</h3>
+                    <small class="text">Rooms oh fully taken by worse do.</small>
+                    <small class="text">Points afraid but may end afraid but...</small>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <small class="point">4.5/5.0</small>
+                  </div>
+                  <hr>
+                  <div class="bottom">
+                    <div class="clock"><i class="fa-regular fa-clock"  style="color: #fb0404;"></i>5h 56mn</div>
+                    <div class="table"><i class="fa-solid fa-table"  style="color: darkorange;"></i>32 lectures</div>
+                  </div>
+                </div>
+                </div>
+          <!-- card 6 -->
+            <div class="card" data-aos="fade-up" data-aos-duration="1000">
+              <div class="position">
+              <img class="image" src="https://eduport.webestica.com/assets/images/courses/4by3/11.jpg" alt="HTML">
+              <i class="fa-solid fa-bookmark" style="color: #FFD43B;"></i>
+            </div>
+              <div class="content">
+              <div class="top">
+              <div class="level color1">Beginner</div>
+                <div class="icon"><i class="fa-solid fa-heart" style="color: #fb0404;"></i></i></div>
+              </div>
+              <div class="middle">
+                <h3>Create a Structure in Basic HTML</h3>
+                <small class="text">Rooms oh fully taken by worse do.</small>
+                <small class="text">Points afraid but may end afraid but...</small>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <small class="point">4.5/5.0</small>
+              </div>
+              <hr>
+              <div class="bottom">
+                <div class="clock"><i class="fa-regular fa-clock"  style="color: #fb0404;"></i>3h 56mn</div>
+                <div class="table"><i class="fa-solid fa-table" style="color: darkorange;"></i>8 lectures</div>
+              </div>
+            </div>
+            </div>
+            
+          <!-- card 7 -->
+            <div class="card" data-aos="fade-up" data-aos-duration="1000">
+              <div class="position">
+              <img class="image" src="https://eduport.webestica.com/assets/images/courses/4by3/12.jpg" alt="CSS">
+              <i class="fa-solid fa-bookmark" style="color: #FFD43B;"></i>
+            </div>
+              <div class="content">
+              <div class="top">
+                <div class="level color1">Beginner</div>
+                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+              </div>
+              <div class="middle">
+                <h3>Styling your website with CSS</h3>
+                <small class="text">Rooms oh fully taken by worse do.</small>
+                <small class="text">Points afraid but may end afraid but...</small>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <small class="point">4.0/5.0</small>
+              </div>
+              <hr>
+              <div class="bottom">
+                <div class="clock"><i class="fa-regular fa-clock" style="color: #fb0404;"></i>8h 56mn</div>
+                <div class="table"><i class="fa-solid fa-table" style="color: darkorange;"></i>16 lectures</div>
+              </div>
+            </div>
+            </div>
+          <!-- card 8 -->
+            <div class="card" data-aos="fade-up" data-aos-duration="1000">
+              <div class="position">
+              <img class="image" src="https://eduport.webestica.com/assets/images/courses/4by3/09.jpg" alt="Javascript">
+              <i class="fa-solid fa-bookmark" style="color: #FFD43B;"></i>
+            </div>
+              <div class="content">
+              <div class="top">
+                 <div class="level color">All Level</div>
+                <div class="icon"><i class="fa-solid fa-heart" style="color: #fb0404;"></i></div>
+              </div>
+              <div class="middle">
+                <h3>Apply an Interactivity in Javascript</h3>
+                <small class="text">Rooms oh fully taken by worse do.</small>
+                <small class="text">Points afraid but may end afraid but...</small>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <small class="point">4.0/5.0</small>
+              </div>
+              <hr>
+              <div class="bottom">
+                <div class="clock"><i class="fa-regular fa-clock"  style="color: #fb0404;"></i>15h 56mn</div>
+                <div class="table"><i class="fa-solid fa-table"  style="color: darkorange;"></i>64 lectures</div>
+              </div>
+            </div>
+            </div>
+          <!-- card 9 -->
+            <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                <div class="position">
+                  <img class="image" src="https://eduport.webestica.com/assets/images/courses/4by3/05.jpg" alt="python">
+              <i class="fa-solid fa-bookmark" style="color: #FFD43B;"></i>
+            </div>
+                  <div class="content">
+                  <div class="top">
+                    <div class="level color">All Level</div>
+                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                  <div class="middle">
+                    <h3>The Complete Web Development in python</h3>
+                    <small class="text">Rooms oh fully taken by worse do.</small>
+                    <small class="text">Points afraid but may end afraid but...</small>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <small class="point">4.5/5.0</small>
+                  </div>
+                  <hr>
+                  <div class="bottom">
+                    <div class="clock"><i class="fa-regular fa-clock"  style="color: #fb0404;"></i>5h 56mn</div>
+                    <div class="table"><i class="fa-solid fa-table"  style="color: darkorange;"></i>32 lectures</div>
+                  </div>
+                </div>
+                </div>
+          <!-- card 10 -->
+            <div class="card" data-aos="fade-up" data-aos-duration="1000">
+              <div class="position">
+              <img class="image" src="https://eduport.webestica.com/assets/images/courses/4by3/06.jpg" alt="angular">
+              <i class="fa-solid fa-bookmark" style="color: #FFD43B;"></i>
+            </div>
+              <div class="content">
+              <div class="top">
+              <div class="level color1">Beginner</div>
+                <div class="icon"><i class="fa-solid fa-heart" style="color: #fb0404;"></i></i></div>
+              </div>
+              <div class="middle">
+                <h3>Angular – The Complete Guider</h3>
+                <small class="text">Rooms oh fully taken by worse do.</small>
+                <small class="text">Points afraid but may end afraid but...</small>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <small class="point">4.5/5.0</small>
+              </div>
+              <hr>
+              <div class="bottom">
+                <div class="clock"><i class="fa-regular fa-clock"  style="color: #fb0404;"></i>3h 56mn</div>
+                <div class="table"><i class="fa-solid fa-table" style="color: darkorange;"></i>8 lectures</div>
+              </div>
+            </div>
+            </div>
+            
+          <!-- card 11 -->
+            <div class="card" data-aos="fade-up" data-aos-duration="1000">
+              <div class="position">
+              <img class="image" src="https://eduport.webestica.com/assets/images/courses/4by3/10.jpg" alt="bootstrap">
+              <i class="fa-solid fa-bookmark" style="color: #FFD43B;"></i>
+            </div>
+              <div class="content">
+              <div class="top">
+                <div class="level color1">Beginner</div>
+                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+              </div>
+              <div class="middle">
+                <h3>Bootstrap Framework 5 From Scratch</h3>
+                <small class="text">Rooms oh fully taken by worse do.</small>
+                <small class="text">Points afraid but may end afraid but...</small>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <small class="point">4.0/5.0</small>
+              </div>
+              <hr>
+              <div class="bottom">
+                <div class="clock"><i class="fa-regular fa-clock" style="color: #fb0404;"></i>8h 56mn</div>
+                <div class="table"><i class="fa-solid fa-table" style="color: darkorange;"></i>16 lectures</div>
+              </div>
+            </div>
+            </div>
+          <!-- card 12 -->
+            <div class="card" data-aos="fade-up" data-aos-duration="1000">
+              <div class="position">
+              <img class="image" src="https://eduport.webestica.com/assets/images/courses/4by3/13.jpg" alt="php">
+              <i class="fa-solid fa-bookmark" style="color: #FFD43B;"></i>
+            </div>
+              <div class="content">
+              <div class="top">
+                 <div class="level color">All Level</div>
+                <div class="icon"><i class="fa-solid fa-heart" style="color: #fb0404;"></i></div>
+              </div>
+              <div class="middle">
+                <h3>PHP with - CMS Project from Scratch</h3>
+                <small class="text">Rooms oh fully taken by worse do.</small>
+                <small class="text">Points afraid but may end afraid but...</small>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <small class="point">4.0/5.0</small>
+              </div>
+              <hr>
+              <div class="bottom">
+                <div class="clock"><i class="fa-regular fa-clock"  style="color: #fb0404;"></i>15h 56mn</div>
+                <div class="table"><i class="fa-solid fa-table"  style="color: darkorange;"></i>64 lectures</div>
+              </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Back to Top Button -->
+        <a href="#totop">
+          <button class="topArrow"><i class="fa-solid fa-arrow-up" style="color: #fafafa;"></i></button>
+        </a>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+        <img src="../image/LOGO.png" alt="Logo" width="100px" />
+        </div>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        
+      </div>
+      <hr>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Vuthy.  All Rights Reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS Initialization Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+     <script>
+    var options = {
+      strings: [
+        "Most Popular Courses", 
+        "Trending Courses", 
+        "Top Rated Courses", 
+        "Highly Recommended Courses"
+      ],  // Array of strings to type
+      typeSpeed: 50,  // Speed of typing in milliseconds
+      backSpeed: 50,  // Speed of erasing in milliseconds
+      backDelay: 1000,  // Delay before starting to erase text
+      startDelay: 500,  // Delay before starting to type text
+      loop: true,  // Loops the typing effect
+      cursorChar: "|",  // Set custom cursor character
+    };
+
+    // Initialize Typed.js on the element with the id "typed-output"
+    var typed = new Typed("#typed-output", options);
+  </script>
+  </body>
+</html> 
+
+ 
